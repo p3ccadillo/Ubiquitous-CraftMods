@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="1.2">
+    <component default="false" id="base" required="true">
+        <description>These are required files to play the game. (These include: Mods, Coremods, lib, config files, and minecraft.jar)</description>
+        <title>Main Ubiquitous Mod Pack ***required</title>
+    </component>
+    <component default="true" id="music" required="false">
+        <description>I do not know wtf this is for</description>
+        <title>Music</title>
+    </component>
+    <filegroup dest="bin" source="http://s3.amazonaws.com/MinecraftDownload/" verify="md5">
+        <file size="738345">lwjgl.jar</file>
+        <file size="227833">jinput.jar</file>
+        <file size="138318">lwjgl_util.jar</file>
+    </filegroup>
+    <filegroup dest="bin/natives" source="http://s3.amazonaws.com/MinecraftDownload/" verify="md5">
+        <archive platform="windows" size="491232">windows_natives.jar.lzma</archive>
+        <archive platform="linux" size="551247">linux_natives.jar.lzma</archive>
+        <archive platform="mac_os_x" size="262436">macosx_natives.jar.lzma</archive>
+        <archive platform="solaris" size="272470">solaris_natives.jar.lzma</archive>
+    </filegroup>
+    <filegroup dest="bin" source="http://s3.amazonaws.com/MinecraftDownload/" verify="md5">
+        <file size="738345">lwjgl.jar</file>
+        <file size="227833">jinput.jar</file>
+        <file size="138318">lwjgl_util.jar</file>
+    </filegroup>
+    <filegroup dest="bin/natives" source="http://s3.amazonaws.com/MinecraftDownload/" verify="md5">
+        <archive platform="windows" size="491232">windows_natives.jar.lzma</archive>
+        <archive platform="linux" size="551247">linux_natives.jar.lzma</archive>
+        <archive platform="mac_os_x" size="262436">macosx_natives.jar.lzma</archive>
+        <archive platform="solaris" size="272470">solaris_natives.jar.lzma</archive>
+    </filegroup>
+    <filegroup dest="coremods/" source="coremods/">
+        <file size="314452" version="ed61a9ea476f082a95e6bf17c45c0cde">CodeChickenCore 0.8.7.3.jar</file>
+        <file size="336328" version="777e0e3884ae87cd3540a9dc41005217">CoFHCore-1.5.2.5.jar</file>
+        <file size="21403" version="6e889900a9ed225945d3cba9f5f3e53b">CreeperCollateral-1.5.2-2.0.3.jar</file>
+        <file size="65775" version="296dae4d260c8a02b2928140cbecc1c1">denLib-1.5.2-3.0.14.jar</file>
+        <file size="21694" version="4b095b92383075c7c3fcd89281b412b3">infinibows-1.5.2-universal-coremod-1.0.0.10.jar</file>
+        <file size="378337" version="20b8d36eb3a4e0d7f59471f4a44293e9">NotEnoughItems 1.5.2.28.jar</file>
+        <file size="219878" version="a6ac1df9f3207df345783db2e2282424">Nucleum-Omnium-Beta-84.jar</file>
+        <file size="133578" version="753288b3e3857b647665780cf4691310">PowerCrystalsCore-1.1.6-107.jar</file>
+    </filegroup>
+    <filegroup dest="lib/" source="lib/">
+        <file size="91333" version="95c15a85a82754e70c65df817874196c">argo-small-3.2.jar</file>
+        <file size="214592" version="d3dcae713e963a24c29d8c5af3ee062b">asm-all-4.1.jar</file>
+        <file size="2318161" version="a8a74bd5de63d0836a3ca884076aad09">bcprov-jdk15on-148.jar</file>
+        <file size="201404" version="5a1e7e7d0226243d7560ceb6aee2579a">deobfuscation_data_1.5.2.zip</file>
+        <file size="2189140" version="8869008bdaf7803abd41d6adeebc93ea">guava-14.0-rc3.jar</file>
+        <file size="7114640" version="ec2ce866a85c579c2c21ba179e9b3985">scala-library.jar</file>
+    </filegroup>
+    <filegroup dest="mods/" source="mods/">
+        <file size="213371" version="ea7e303f9d5b097e637a826e75bedd9a">AdvancedPowerManagement-1.2.68.jar</file>
+        <file size="100681" version="3a3c19968b8373146ca80243a94085e5">AdvancedSolarPanels-3.3.7.zip</file>
+        <file size="1164071" version="dbfa668438a69a19c56edbd18896149c">appeng-rv12-a-mc15x.zip</file>
+        <file size="18468" version="57845b78925482b8547ef9bb4da31f72">BackTools-1.5.2v1.zip</file>
+        <file size="936348" version="c5a93957dccd80178a4ab3debfcb82c7">BiblioCraft-1.3.3.zip</file>
+        <file size="327828" version="98cd602faf7196f5c74e5fd0654da894">BiblioWoods-BOP-1.0.zip</file>
+        <file size="527464" version="49ec2615db6f407afe8946c93447290d">BiblioWoods-Forestry-1.0.zip</file>
+        <file size="2621430" version="115e1d4d386d5e218c65aef0e2c3a5b7">binnie-mods-1.7.0b.jar</file>
+        <file size="4984580" version="c9d5a4575bb6c2fbb146820c301e97a4">Biomes-O-Plenty-0.5.9.2-1.5.2.jar</file>
+        <file size="1249140" version="e6ad480c4dce9da7f9c749464830ec9d">buildcraft-A-3.7.2.jar</file>
+        <file size="98933" version="d0cc6c4ea3d39687ac8b2495477f09f7">ChargePads-2.7.0.86.jar</file>
+        <file size="93761" version="725bc963e51e6c2ee4cba73b7653a186">ChickenChunks 1.3.2.14.jar</file>
+        <file size="51825" version="bb2c031938aca480f1ada06e66f9ab32">compactsolars-universal-1.5.2-4.2.0.52.zip</file>
+        <file size="1036312" version="1debf42cfda360ca9a790922e21f9c82">ComputerCraft-1.53.zip</file>
+        <file size="292208" version="5b2b77637e04bf7cd4432e6aaf1e6557">DamageIndicators-2.7.0.1.zip</file>
+        <file size="2086412" version="44612ac0a4e0dc384fb19377f41ec17c">DartCraft Beta 0.1.18.jar</file>
+        <file size="493369" version="a9f90600b2930df99125ce1564605c15">DeathTimer-Beta-11.jar.disabled</file>
+        <file size="47125" version="71892b4dd44ce881bc9729b2c19dfb24">DenPipes-2.0.7.jar</file>
+        <file size="18543" version="5a4adc93a9a5ca5c5c92fe94c5b620da">DenPipes-Emerald-1.5.2-1.0.2.jar</file>
+        <file size="289492" version="f01eebbd2e13f85cbf3d4ec642359c82">DenPipes-Forestry-1.5.2-1.0.4.jar</file>
+        <file size="124648" version="8efaa464a10d910f2a87f64d7a0206a7">EnchantingPlus-1.15.5.jar</file>
+        <file size="108275" version="6bda8b8a0f5d01bf9e76995d508d4087">EnderStorage 1.4.2.16.jar</file>
+        <file size="569200" version="407dad9c27d460a2a81f33db5fa9cd70">EquivalentExchange3-pre1h-16.jar</file>
+        <file size="427188" version="e847ed4345a30a8da6b11734136f0cef">extrautils - 0.2.4f.zip</file>
+        <file size="959352" version="ac0cc2dfd898e5cd79736dde72efd497">Factorization-0.8.01.jar</file>
+        <file size="28201" version="72b823661d5f1a898c00d89ac193b0a7">flatsigns-1.5.2-universal-1.3.2.14.jar</file>
+        <file size="3064223" version="75c2050b82344f76636af78987231338">forestry-A-2.2.8.4.jar</file>
+        <file size="790530" version="004377a809058275ded849b526ded1fa">ForgeMultipart-universal-1.5.2-1.0.0.114.jar</file>
+        <file size="29129" version="144332c5815ec06729d83fb5c39a6ea0">GateCopy-3.0.2.jar</file>
+        <file size="260865" version="1f422559c05790805401e8f5ccfae16a">GraviSuite-1.9.3.zip</file>
+        <file size="274105" version="11db0cecbd4525e2674cb178b2a3eb20">GravityGun-1.5.1.zip</file>
+        <file size="2489551" version="821c664c6277e3b99a1b2236d328afc5">gregtechmod311.zip</file>
+        <file size="460009" version="bd0035b7f1d9aa5111f85d6ce43da11d">Hats-1.3.3.zip</file>
+        <file size="32583" version="7c9285195183c1be4022d851459beaa2">HatStand-1.2.1.zip</file>
+        <file size="788913" version="78797db69c0b51f38c1bf01a60fcbba3">IC2NuclearControl-1.5.1c.zip</file>
+        <file size="14355" version="87084a846390691e5527afaa641d9829">iChunUtil-1.0.1.zip</file>
+        <file size="3428285" version="28d18b43228cbbe1fc75c8a4b47a6144">industrialcraft-2_1.116.364-lf.jar</file>
+        <file size="182385" version="191b95b451f0cf2b6ed7047aa3e26d9a">InventoryTweaks-1.54b.jar</file>
+        <file size="113704" version="76ad1d0ad0ac69c2bdca408313fd829c">ironchest-universal-1.5.2-5.2.8.446.zip</file>
+        <file size="4259869" version="6d87348d0b9b0813f260e7e049f1029b">LogisticsPipes-MC1.5.2-0.7.3.ftb.631.jar</file>
+        <file size="725543" version="dd969bf7b40b7561c1cd5624cf0ea110">magicbees-2.1.1.jar</file>
+        <file size="1442718" version="8290e80768648ead97ac137d25f3e13a">MFFS_Cal_v3.1.0.175.jar</file>
+        <file size="1893717" version="25ea00ef0b5a6c6f449bdbb8517df826">MineFactoryReloaded-2.6.4-975.jar</file>
+        <file size="810138" version="0f48c322678c9fe7acf17440758a1f79">miscperipherals-3.3f.jar</file>
+        <file size="624295" version="85e5279a5d5801522c383635d19e0c7c">ModularForceFieldSystem-2.3.0.1.28.jar</file>
+        <file size="1842433" version="e898aa07bf06d3883f20f82526c2235c">ModularPowersuits-0.7.0-534.jar</file>
+        <file size="1661691" version="bb86c20104ab14950e8e39e26c7fbb46">mystcraft-uni-1.5.2-0.10.5.00.zip</file>
+        <file size="790225" version="5acd8f47d2a2d3fb6e50257767da6c31">Natura_1.5.1_2.1.4.jar</file>
+        <file size="68060" version="d7f9f374fa83791ca3d7a725b76ea7a3">neiaddons-1.5.2-1.8.1.r27.jar</file>
+        <file size="339563" version="5d3599b270505047dd68b9b24d339759">NEIPlugins-1.0.9.3.jar</file>
+        <file size="57563" version="2a96baca9c89f50b40e527e2c6e17722">NetherOres-2.1.5-75.jar.disabled</file>
+        <file size="23171" version="383be111d128a7eefce2aafd20aab208">obsidiplates-1.5.2-universal-1.5.0.13.jar</file>
+        <file size="86343" version="59e193d38cb5cd71084ab9b0f48b76c3">OmniTools-3.1.6.0.jar</file>
+        <file size="266769" version="7712643169e8f5f0694321495a34e9d5">OpenPeripheral-0.1.9.jar</file>
+        <file size="326444" version="ef5bdd74a205ca41a1292a11fdbdf8c3">PluginsforForestry-1.5.2-3.0.17.jar</file>
+        <file size="620825" version="ad2d047c6de6db13a2d2f6bcfe3e3824">PortalGun1.5.2.zip</file>
+        <file size="126752" version="1607c6f8eefaf3b4778af2ccd0f3cb79">PowerConverters-2.3.1-58.jar.disabled</file>
+        <file size="2513074" version="3759cf93b9467881ecaff6b505ac0067">Railcraft_1.5.2-7.3.0.0.jar</file>
+        <file size="400830" version="45cb708364161f52baf460d556bf9bfa">Reliquary1.0.6d.zip</file>
+        <file size="46277" version="07278634566cf29c1cf863c2057a71db">SoulShards-1.0.36-universal-srg.jar</file>
+        <file size="1809349" version="5fdbed82a477294eec11b1e5997ad939">StevesCarts2.0.0.a122.zip</file>
+        <file size="4098532" version="72ca1e880d81aae6de46ee083c0e4a10">TConstruct_1.5.2_1.4.2.1.jar</file>
+        <file size="6436397" version="944c964d11c50f58c25b29a123c618f1">Thaumcraft3.0.5h.zip</file>
+        <file size="611749" version="c5cc1bb46130d7696790f103af79d720">Thaumic Tinkerer [1.0.8].zip</file>
+        <file size="1153247" version="d8546026fae81221ccd6a1d31cd5acc6">ThermalExpansion-2.4.6.0.jar</file>
+        <file size="2866841" version="59994a85c4d611e99ce91bfaadc5e9b6">twilightforest-1.18.2.zip</file>
+        <file size="330818" version="a6c4d1f7f7d4703a67f76921cae7ca52">vending-1.5.2-1.0.9.jar</file>
+        <file size="369169" version="83844c4dfbe850ea1e4b539a9a98cedf">VoxelMap_1.5.2.u88.zip</file>
+        <file size="142552" version="7e5f1a3f5c535cc719237fcb03061ba5">WR-CBE Addons 1.4.jar</file>
+        <file size="117705" version="102248ddae503aeb9cbe185df83cb4aa">WR-CBE Core 1.4.jar</file>
+        <file size="38097" version="228050f627a974bef3f5ef95961d0ba9">WR-CBE Logic 1.4.0.2.jar</file>
+    </filegroup>
+    <filegroup dest="" source="">
+        <file size="5423949" version="ea44fc275246fd1f3a3cfa78e997853b">minecraft.jar</file>
+    </filegroup>
+    <filegroup dest="." source="">
+        <archive size="204826" version="847c8ed15e18e2bbd24de892bac2c77f">configs.extract.zip</archive>
+    </filegroup>
+    <message id="optional-message-id" version="1">
+        <agreement>true</agreement>
+        <content>
+&lt;strong&gt;By accepting the following you agree both to the rules Od Ubiquitous-Craft, and that p3 is super cool&lt;/strong&gt;
+</content>
+        <phase>initialize</phase>
+        <title>User Agreement for Ubiquitous-Craft</title>
+        <type>html</type>
+    </message>
+</package>

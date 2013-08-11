@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<update>
+    <id>UC-modpack</id>
+    <latest>V1.0.4</latest>
+    <name>Ubiquitous-Craft Custom Modpack</name>
+    <newsURL>http://files.enjin.com/426136/NEWS/news10AUG13.html</newsURL>
+    <packageurl>package.xml</packageurl>
+</update>
